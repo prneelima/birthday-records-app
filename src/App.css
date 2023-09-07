@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background:linear-gradient(40deg,  #cecece 9%, #00c8ff 45%);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.birthday {
+  background:linear-gradient(40deg,  #cecece 9%, #00c8ff 45%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.formClass{
+  margin-right: 10px;
+}
